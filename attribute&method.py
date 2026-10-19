@@ -1,0 +1,15 @@
+class Student:
+    Institute_name = "TPI" #attribute 
+    
+    def __init__(self, name, id): #method
+        department = "CST" #local variable
+        self.name = name #instant variable 
+        self.roll = id
+        
+        print(f"your name {name} and your id {id} also you department {department}")
+        
+Student("salim", 50)
+
+#creating a object 
+obj = Student("rakib", 40) #object
+        
