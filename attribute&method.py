@@ -6,7 +6,7 @@ class Student:
         self.name = name #instant variable 
         self.roll = id
         
-        print(f"your name {name} and your id {id} also you department {department}")
+        print(f"your name {name} and your id {id} also you department {department} and your college {self.Institute_name}")
         
 Student("salim", 50)
 
